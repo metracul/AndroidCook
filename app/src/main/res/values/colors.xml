@@ -6,6 +6,6 @@
     <color name="button1">#525DC0</color>
     <color name="button2">#E13E3E</color>
     <color name="btntext">#FFFFFF</color>
-
+    <color name="my_light_primary">#f4faff</color>
 
 </resources>

@@ -2,8 +2,14 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.AndroidCook" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/my_light_primary</item>
+        <item name="android:navigationBarColor">@color/my_light_primary</item>
+
+        <!-- Настройки для значков и текста -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
     </style>
+
 
     <style name="Theme.AndroidCook" parent="Base.Theme.AndroidCook" />
 </resources>
