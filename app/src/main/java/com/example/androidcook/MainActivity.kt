@@ -8,16 +8,12 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.androidcook.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
+    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Включаем edge-to-edge режим, если требуется
-        enableEdgeToEdge()
-
         // Инициализация ViewBinding и установка корневого макета
-        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // Установка WindowInsetsListener на корневой макет для обработки системных инсетсов

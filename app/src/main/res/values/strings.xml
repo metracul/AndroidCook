@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidCook</string>
-    <string name="txtbtn1">Категории</string>
-    <string name="txtbtn2">Избранное</string>
+    <string name="appName">AndroidCook</string>
+    <string name="textBtn1">Категории</string>
+    <string name="textBtn2">Избранное</string>
 </resources>

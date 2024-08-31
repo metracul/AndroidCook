@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-// че за основной отступ...
+    <dimen name="nav_button_corner_radius">8dp</dimen>
+    <dimen name="text_size_small_xxx">14sp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
 </resources>

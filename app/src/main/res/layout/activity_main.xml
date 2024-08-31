@@ -25,13 +25,11 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
-        android:paddingHorizontal="16dp"
+        android:paddingHorizontal="@dimen/padding_normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-
-        <!-- Первая кнопка -->
         <Button
             android:id="@+id/button1"
             style="@style/StyleNavButton"
@@ -39,9 +37,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/button1"
-            android:text="@string/txtbtn1" />
+            android:text="@string/textBtn1" />
 
-        <!-- Вторая кнопка -->
         <Button
             android:id="@+id/button2"
             style="@style/StyleNavButton"
@@ -50,15 +47,12 @@
             android:layout_marginStart="4dp"
             android:layout_weight="1"
             android:backgroundTint="@color/button2"
-            android:text="@string/txtbtn2"
+            android:text="@string/textBtn2"
             app:icon="@drawable/ic_heart_empty"
             app:iconGravity="textEnd"
             app:iconPadding="4dp"
-            app:iconSize="24dp"
-
-            />
+            app:iconSize="24dp" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
