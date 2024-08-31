@@ -3,4 +3,6 @@
     <dimen name="nav_button_corner_radius">8dp</dimen>
     <dimen name="text_size_small_xxx">14sp</dimen>
     <dimen name="padding_normal">16dp</dimen>
+    <dimen name="margin_small_4">4dp</dimen>
+    <dimen name="margin_normal_xx4">24dp</dimen>
 </resources>

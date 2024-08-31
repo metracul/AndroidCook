@@ -3,9 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="backMain">#F4FAFF</color>
-    <color name="button1">#525DC0</color>
-    <color name="button2">#E13E3E</color>
-    <color name="btntext">#FFFFFF</color>
-    <color name="my_light_primary">#f4faff</color>
+    <color name="buttonCategory">#525DC0</color>
+    <color name="buttonFavorite">#E13E3E</color>
 
 </resources>

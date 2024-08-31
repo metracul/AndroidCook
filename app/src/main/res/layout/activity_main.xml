@@ -25,22 +25,22 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/button1"
-            android:text="@string/textBtn1" />
+            android:backgroundTint="@color/buttonCategory"
+            android:text="@string/textBtnCategory" />
 
         <Button
             android:id="@+id/button2"
             style="@style/StyleNavButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
+            android:layout_marginStart="@dimen/margin_small_4"
             android:layout_weight="1"
-            android:backgroundTint="@color/button2"
-            android:text="@string/textBtn2"
+            android:backgroundTint="@color/buttonFavorite"
+            android:text="@string/textBtnFavorites"
             app:icon="@drawable/ic_heart_empty"
             app:iconGravity="textEnd"
-            app:iconPadding="4dp"
-            app:iconSize="24dp" />
+            app:iconPadding="@dimen/margin_small_4"
+            app:iconSize="@dimen/margin_normal_xx4" />
 
     </LinearLayout>
 
