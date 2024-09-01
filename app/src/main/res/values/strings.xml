@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AndroidCook</string>
+    <string name="appName">AndroidCook</string>
+    <string name="textBtnCategory">Категории</string>
+    <string name="textBtnFavorites">Избранное</string>
 </resources>
