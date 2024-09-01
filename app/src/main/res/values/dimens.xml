@@ -5,4 +5,5 @@
     <dimen name="padding_normal">16dp</dimen>
     <dimen name="margin_small_4">4dp</dimen>
     <dimen name="margin_normal_xx4">24dp</dimen>
+    <dimen name="text_size_normal_xxx">24sp</dimen>
 </resources>

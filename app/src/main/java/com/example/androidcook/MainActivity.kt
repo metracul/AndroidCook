@@ -19,8 +19,25 @@ class MainActivity : AppCompatActivity() {
         // Установка WindowInsetsListener на корневой макет для обработки системных инсетсов
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { view, insets ->
             val systemBarsInsets = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            view.setPadding(systemBarsInsets.left, systemBarsInsets.top, systemBarsInsets.right, systemBarsInsets.bottom)
+            view.setPadding(
+                systemBarsInsets.left,
+                systemBarsInsets.top,
+                systemBarsInsets.right,
+                systemBarsInsets.bottom
+            )
             insets
+        }
+
+        if (savedInstanceState == null) { // Добавляем проверку на сохраненное состояние
+            val fragment = CategoriesListFragment() // Инициализация фрагмента
+            supportFragmentManager.beginTransaction()
+                .replace(
+                    R.id.mainContainer,
+                    fragment
+                ) // Убедитесь, что контейнер с ID mainContainer существует в вашем макете
+                .commit()
+
+            // Здесь вы можете добавить любую дополнительную настройку UI через binding
         }
     }
 }
